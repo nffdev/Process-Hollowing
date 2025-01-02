@@ -22,6 +22,8 @@ A demonstration of process hollowing for replacing the memory of a legitimate pr
 
 ## TECHNICAL DETAILS
 
+![image](https://raw.githubusercontent.com/nffdev/Process-Hollowing/refs/heads/main/hollowing.png)
+
 - **CreateProcessA**: Launches the legitimate process in a suspended state, enabling modifications before execution.  
 - **GetThreadContext**: Retrieves the context of the suspended thread, including registers like `Rcx` or `Rdx`.  
 - **ReadProcessMemory**: Reads the memory of the target process to retrieve the original image base address.  
