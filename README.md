@@ -36,3 +36,5 @@ A demonstration of process hollowing for replacing the memory of a legitimate pr
 - [Official Microsoft documentation on Windows APIs](https://docs.microsoft.com/en-us/windows/win32/)
 
 ## Demo
+
+![Demo](https://raw.githubusercontent.com/nffdev/Process-Hollowing/main/demo.gif)
